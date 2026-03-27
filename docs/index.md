@@ -3,7 +3,7 @@ Zebrunner (Community Edition)
 
 ## Overview
 Zebrunner (Community Edition) is a [Continuous configuration automation](https://en.wikipedia.org/wiki/Infrastructure_as_code#Continuous_configuration_automation) framework for continuous testing (running various kinds of tests on the code to gain successive levels of confidence in the quality of the code), and (optionally) continuous deployment. It is built in accordance with [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) processes. 
-> It is integrated by default with [carina-core](http://www.carina-core.io) open source TestNG framework and uses Jenkins as a CI Tool.
+> It is integrated by default with [carina-core](https://zebrunner.github.io/carina/) open source TestNG framework and uses Jenkins as a CI Tool.
 
 * Zebrunner is built on top of popular docker solutions, it includes Postgres database, [Zebrunner Testing Platform](https://zebrunner.com/testing-platform) (Community Edition), Jenkins with agent node(s), Selenium Hub(s), [Zebrunner Device Farm](https://zebrunner.com/products/mobile-testing-farm/), [SonarQube](https://github.com/zebrunner/sonarqube), etc. 
   > In additions it is easily integrated with 3rd party devices/browsers cloud providers like: [Zebrunner Selenium Grid](https://zebrunner.com/selenium-grid), [Browserstack](https://www.browserstack.com/), [SauceLabs](https://saucelabs.com/) etc
@@ -32,7 +32,7 @@ User guide is for TestOps engineers who develop test automation scenarios, execu
 
  * Preferable Test Automation language and framework. 
    > Java/ Maven/ [TestNG](https://testng.org/)/
-   > [Carina](https://www.carina-core.io/) experience is a plus
+   > [Carina](https://zebrunner.github.io/carina/) experience is a plus
    
  * Understanding of the basics of Jenkins pipeline and JobDSL
 
